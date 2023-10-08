@@ -176,3 +176,6 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log("Running at port", port);
 });
+
+//Export The Express Api
+module.exports = app;
